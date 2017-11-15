@@ -35,6 +35,9 @@ namespace android {
 #endif
 }
 
+#define LIKELY(exp)   __builtin_expect(!!(exp), 1)		
+#define UNLIKELY(exp) __builtin_expect(!!(exp), 0)
+
 /* QCameraStream_record class implementation goes here*/
 /* following code implement the video streaming capture & encoding logic of this class*/
 // ---------------------------------------------------------------------------

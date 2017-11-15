@@ -62,6 +62,8 @@ LOCAL_SHARED_LIBRARIES := libutils libui libcamera_client libcamera_metadata lib
 LOCAL_SHARED_LIBRARIES += libgenlock libmmcamera_interface2
 LOCAL_SHARED_LIBRARIES += android.hidl.token@1.0-utils android.hardware.graphics.bufferqueue@1.0
 
+LOCAL_HEADER_LIBRARIES  := libnativebase_headers
+
 ifneq ($(DLOPEN_LIBMMCAMERA),1)
     LOCAL_SHARED_LIBRARIES += liboemcamera
 else
