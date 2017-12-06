@@ -88,6 +88,4 @@ DEVICE_MANIFEST_FILE := device/lge/mako/manifest.xml
 
 TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS := true
 
-TARGET_NEEDS_PLATFORM_TEXTRELS := true
-
 -include vendor/lge/mako/BoardConfigVendor.mk
