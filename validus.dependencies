@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "ValidusOs-Devices/device_lge_mako",
+    "target_path": "device/lge/mako",
+    "branch": "8.1"
+  },
+  {
+    "repository": "BigTopKrazies/vendor_lge_mako",
+    "target_path": "vendor/lge",
+    "branch": "8.1"
+  },
+  {
+    "repository": "GZR-Kernels/kernel_lge_mako",
+    "target_path": "kernel/lge/mako",
+    "branch": "8.1"
+  }
+]
