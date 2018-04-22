@@ -35,7 +35,7 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=mako lpj=67677 user_debug=31 vmalloc=340M
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
 TARGET_KERNEL_SOURCE := kernel/lge/mako
-TARGET_KERNEL_CONFIG := lineageos_mako_defconfig
+TARGET_KERNEL_CONFIG := toxic_mako_defconfig
 
 # Platform
 TARGET_NO_BOOTLOADER := true
