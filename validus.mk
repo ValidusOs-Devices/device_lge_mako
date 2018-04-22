@@ -20,6 +20,7 @@ PRODUCT_MANUFACTURER := LGE
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=occam \
-    PRIVATE_BUILD_DESC="occam-user 5.1.1 LMY48T 2237560 release-keys"
+    PRIVATE_BUILD_DESC="occam-user 5.1.1 LMY48T 2237560 release-keys" \
+    DEVICE_MAINTAINERS="HardwareAdictos"
 
 BUILD_FINGERPRINT := google/occam/mako:5.1.1/LMY48T/2237560:user/release-keys
