@@ -164,3 +164,5 @@ endif
 # Device manifest
 DEVICE_MANIFEST_FILE := $(PLATFORM_PATH)/manifest.xml
 DEVICE_MATRIX_FILE := $(PLATFORM_PATH)/compatibility_matrix.xml
+
+ALLOW_MISSING_DEPENDENCIES=true
